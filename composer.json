@@ -1,0 +1,23 @@
+{
+  "name": "caiomarcatti12/log",
+  "description": "",
+  "version": "2.0.3",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Marcatti",
+      "email": "caiomarcatti12@gmail.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "CaioMarcatti12\\Logger\\" :  "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "monolog/monolog": ">=3.2.0"
+  }
+}
